@@ -81,7 +81,7 @@ public class RecyclerActivity extends AppCompatActivity implements SwipeRefreshL
     private void getMoviesList(String searchKey, int page) {
         final List<MoviesData>[] list = new List[]{new ArrayList<>()};
         String mob="123";
-        String url="?s="+mob+"&page="+page+"&apikey=5a4eac80";
+        String url="?s="+mob+"&page="+page+"&apikey=5a4uuic80";
 
         Call<ResponseMoviesList> call=apiServices.getMoviesList(url);
         call.enqueue(new Callback<ResponseMoviesList>() {
